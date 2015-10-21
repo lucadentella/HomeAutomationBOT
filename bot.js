@@ -109,7 +109,7 @@ function parseMessage(message) {
 // Function that checks if the user is authorized (its id is in the array)
 function isAuthorized(userid) {
 
-  for(i = 0; i < authorized_users.length; iè++) 
+  for(i = 0; i < authorized_users.length; i++) 
     if(authorized_users[i ] == userid) return true;
  
   return false;
